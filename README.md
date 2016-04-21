@@ -7,7 +7,7 @@ to do list:
 
 -Ákveða liti og letur - DONE
 
--Setja inn texta og myndir
+-Setja inn texta og myndir - DONE
 
 -Seta upp grunn CSS og gera mobile ready
 
