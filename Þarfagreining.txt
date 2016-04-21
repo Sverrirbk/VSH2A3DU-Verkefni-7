@@ -6,6 +6,9 @@ Síðan á að höfða til allra þeirra sem spila tölvuleiki og hafa gaman að random g
 
 Á vefnum verða upplýsingar um leikinn, from til að skrá sig á póst lista og upplýsingar um hvar er hægt að sækja leikinn.
 
+Litir verða svartur og hvítur með rauðum fyrir áherslur. Letur verða í stíl við lekinn. Pixlað letur fyrir titla og einfalt letur fyrir texta.
+
+
 Pöntunarformið mun sannreyna tölvupóstfang, símanúmer og að enginn reitur sé auður.
 
 Vefurinn verður skipulagður þannig að ein síða verður um upplýingar um leikinn og skránningar form
