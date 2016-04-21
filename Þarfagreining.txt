@@ -3,6 +3,7 @@
 Síðan mun fjalla um tölvuleikinn "Royals" og hvernig er hægt að nálgast hann.
 
 Síðan á að höfða til allra þeirra sem spila tölvuleiki og hafa gaman að random generated games eða ROGUE leikjum. Aðalega eldri spilurum.
+Vefurinn þarf að gefa góðar upplýsingar um hverju búast megi við þegar spilað er leikinn.
 
 Á vefnum verða upplýsingar um leikinn, from til að skrá sig á póst lista og upplýsingar um hvar er hægt að sækja leikinn.
 
@@ -11,7 +12,8 @@ Litir verða svartur og hvítur með rauðum fyrir áherslur. Letur verða í stíl við 
 
 Pöntunarformið mun sannreyna tölvupóstfang, símanúmer og að enginn reitur sé auður.
 
+Menubar verður efst á síðu til að ferðast um.
 Vefurinn verður skipulagður þannig að ein síða verður um upplýingar um leikinn og skránningar form
-Önnur síða verður með skjáskotum úr leiknum og notast verður við transform/animation
+Önnur síða verður með skjáskotum úr leiknum og notast verður við transform/animation til að búa til slideshow.
 Þriðja síða verður með linkum til að nálgast leikinn og læra meira.
 

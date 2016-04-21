@@ -10,10 +10,15 @@ to do list:
 -Setja inn texta og myndir - DONE
 
 -Seta upp grunn CSS og gera mobile ready
+	Header - DONE
+	Menu - DONE
+	Footer - DONE
+	Mobile ready - DONE
+	
 
--Finna upplýsingar um leikinn
+-Finna upplýsingar um leikinn - DONE
 
--Finna skjáskot til að nota
+-Finna skjáskot til að nota - DONE
 
 -Klára verkefni 7
 

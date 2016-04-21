@@ -1,6 +1,140 @@
-font-family: 'VT323', ;
-font-family: 'Ropa Sans', sans-serif;
 
+header, footer, section, article, aside {
+	display: block;
+}
+body {
+	width: 100%;
+    margin: 0 auto;
+}
+
+/*
+  ****************************************
+  Logo
+  ****************************************
+*/
+header {
+	width: 100%;
+	margin top: 1em;
+}
+
+
+/*
+  ****************************************
+  Top menu bar
+  ****************************************
+*/
+.topmenu li {
+	display: inline-block;
+}
+
+
+/*
+  ****************************************
+  Title
+  ****************************************
+*/
+
+/*
+  ****************************************
+  Section
+  ****************************************
+*/
+
+section {
+	width: 100%;
+	display: inline-block;
+}
+
+	/*
+	  ****************************************
+	  Text
+	  ****************************************
+	*/
+	article {
+		width: 100%;
+	}
+
+
+	/*
+	  ****************************************
+	  Signup Form
+	  ****************************************
+	*/
+	form {
+		width: 100%;
+	}
+
+	/*
+	  ****************************************
+	  Signup Form
+	  ****************************************
+	*/
+	aside div{
+		display: inline-block;
+		width: 100%;
+	}
+
+
+/*
+  ****************************************
+  Footer
+  ****************************************
+*/
+
+footer {
+	width: 100%;
+}
+
+.botmenu li {
+	display: inline-block;
+}
+
+/*
+  ****************************************
+  Mobile Ready
+  ****************************************
+*/
+@media screen and (min-width: 30em){
+	body {
+    max-width: 30em;
+    margin: 0 auto;
+	}
+
+    aside div{
+    	width: 49%;
+    }
+
+    article {
+    	width: 49%;
+    	float: left;
+    }
+    form {
+    	width: 49%;
+    	float: right;
+    }
+
+
+}
+
+@media screen and (min-width: 48em){
+	body {
+    max-width: 48em;
+    margin: 0 auto;
+    }
+
+}
+
+@media screen and (min-width: 60em){
+	body {
+    max-width: 60em;
+    margin: 0 auto;
+    }
+
+}
+
+
+/* font-family: 'VT323', ;
+font-family: 'Ropa Sans', sans-serif;
 
 div.img {
     margin: 5px;
@@ -21,4 +155,40 @@ div.img img {
 div.desc {
     padding: 15px;
     text-align: center;
+}
+
+
+*/
+
+
+/*
+  ****************************************
+  Border box
+  ****************************************
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*
+  ****************************************
+  Clearfix
+  ****************************************
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
 }
