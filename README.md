@@ -20,6 +20,14 @@ to do list:
 
 -Finna skjáskot til að nota - DONE
 
--Klára verkefni 7
+-Klára verkefni 7 - DONE
 
 -Byrja á verkefni 8
+
+-Vinna myndir fyrir vef
+
+-Setja inn texta
+
+-Setja inn myndir
+
+-Animation sett inn
