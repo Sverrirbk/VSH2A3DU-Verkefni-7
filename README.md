@@ -22,12 +22,12 @@ to do list:
 
 -Klára verkefni 7 - DONE
 
--Byrja á verkefni 8
+-Byrja á verkefni 8 - DONE
 
--Vinna myndir fyrir vef
+-Vinna myndir fyrir vef - DONE
 
 -Setja inn texta
 
 -Setja inn myndir
 
--Animation sett inn
+-Animation sett inn 
