@@ -64,6 +64,7 @@ header label {
   text-align: right;
   padding: .2em .4em;
   transition: all .4s ease;
+  background: white;
 }
 
 header input:checked + header label {
@@ -135,10 +136,13 @@ section {
 	  ****************************************
 	*/
 	form {
-		width: 100%;
+		width: 37%;
 		font-family: 'VT323';
 		float: right;
-		padding-bottom: 2em;
+		margin-bottom: 5em;
+		border: 6px double #000;
+		border-radius: 6px;	
+		text-align: center;
 	}
 
 	/*
@@ -171,13 +175,15 @@ section {
 
 footer {
 	width: 100%;
+	text-align: center;
 }
 
 .botmenu li {
 	font-family: 'VT323';
 	display: inline-block;
 }
-
+iframe {
+}
 /*
   ****************************************
   Mobile Ready
@@ -187,11 +193,11 @@ footer {
 	body {
     max-width: 30em;
     margin: 0 auto;
-    background-color: red;
 	}
 
     aside div{
     	width: 51%;
+    	margin-top: 10px;
     }
 
     article {
@@ -201,6 +207,7 @@ footer {
     form {
     	width: 49%;
     	float: right;
+    	margin-top: 10px;
     }
      .sword img {
     	float: right;
@@ -219,7 +226,6 @@ footer {
 	body {
     max-width: 48em;
     margin: 0 auto;
-    background-color: blue;
     }
     .sword img {
     	float: right;
@@ -237,20 +243,23 @@ footer {
     }
 
     .topmenu {
-    	width: 40%;
+    	width: 100%;
+    	padding: 0;
+
+
     }
 
     header nav{
 		position: inherit;
-		top: .5em;
-		right: .5em;
 		border: 6px double #000;
+		border-radius: 6px;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 1.5em;
-		text-align: right;
-		padding: .2em .4em;
+		text-align: left;
+		margin-bottom: 1em;
 		transition: all 0s ease;
+		text-align: center;
 	}
 
 	header label{
@@ -264,7 +273,6 @@ footer {
 @media screen and (min-width: 60em){
 	body {
     margin: 0 auto;
-    background-color: yellow;
     }
      .sword img {
     	float: right;
@@ -274,9 +282,18 @@ footer {
     	width: 100%;
     }
 
+    form {
+    	margin-bottom: 1em;
+    }
+
     .topmenu{
 
     }
+
+    article {
+    	margin-top: 10px;
+    }
+
 
 }
 
@@ -368,6 +385,11 @@ div.desc {
    50% { opacity: 0;}
    75% { opacity: 0;}
    100% { opacity: 1;}
+}
+
+
+iframe {
+	float: left;
 }
 
 /*
